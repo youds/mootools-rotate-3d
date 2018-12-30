@@ -41,23 +41,23 @@ function rotate3d (element) {
 	running = element;
 	fxMorph = new Fx.Morph(element,  {duration: 'short', transition: Fx.Transitions.Sine.easeOut});
 	fxMorph.start({
-	    'height': [100, 100], // Morphs the 'height' style from 10px to 100px.
-	    'width': [90, 0]  //Morphs the 'width' style from 900px to 300px.
+	    'height': [100, 100], 
+	    'width': [90, 0]  
 	}).chain(
 	  	function(){ this.start({
-	    	'height': [100, 100], // Morphs the 'height' style from 10px to 100px.
-	    	'width': [0, 90]  //Morphs the 'width' style from 900px to 300px.
+	    	'height': [100, 100], 
+	    	'width': [0, 90]  
 		})
 	}).chain(
 	  	function(){ 
 			this.start({
-	    		'height': [100, 100], // Morphs the 'height' style from 10px to 100px.
-	    		'width': [90, 0]  //Morphs the 'width' style from 900px to 300px.
+	    		'height': [100, 100], 
+	    		'width': [90, 0] 
 		})
 	}).chain(
 	  	function(){ this.start({
-	    	'height': [100, 100], // Morphs the 'height' style from 10px to 100px.
-	    	'width': [0, 90]  //Morphs the 'width' style from 900px to 300px.
+	    	'height': [100, 100], 
+	    	'width': [0, 90]  
 		})
 	}).chain(
 	  	function(){ 
