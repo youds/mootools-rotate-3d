@@ -1,0 +1,17 @@
+/*
+---
+description: Element class, Elements class, and basic dom methods.
+
+license: MIT-style
+
+authors:
+- Craig Fairhurst
+
+requires:
+- MooTools 1.6.0 Fx.Morph
+
+
+provides: [Element, Fx.Morph]
+
+
+*/
